@@ -31,23 +31,31 @@ hr {
 /* .border {
     /* margin: 50px; */
 
+.border {
+    height: auto;
+}
+
 
 .border img {
-    width: 400px;
-    height: auto;
+    width: 100%;
+    
     object-fit: cover;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 .sdds{
     background: #fff;
     padding-bottom: 50px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .sdds:hover{
@@ -59,7 +67,7 @@ hr {
 .border .bod {
     display: grid;
     place-items: center;
-    /* gap: 4rem; */
+    gap: 4rem;
     font-weight: normal;
     padding-top: 10px;
 }
@@ -75,7 +83,6 @@ hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 10%;
-        margin: 2rem;
     }
 }
 
