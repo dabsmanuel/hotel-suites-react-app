@@ -9,7 +9,7 @@
 
 .Room {
   background: rgb(241, 239, 239);
-  height: 160vh;
+  /* height: 100vh; */
 }
 
 .Rooms {
@@ -85,7 +85,7 @@ hr {
 
 @media screen and (max-width: 968px) {
   .Room {
-      height: 475vh;
+      height: 100vh;
   }
   
   
