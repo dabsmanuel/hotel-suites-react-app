@@ -1,93 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.Room{
-    background: rgb(241, 239, 239);
+.Room {
+  background: rgb(241, 239, 239);
+  height: 160vh;
 }
 
 .Rooms {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .Rooms h1 {
-    font-size: 50px;
-    margin: 70px 0px 0px 0px;
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
+  font-size: 50px;
+  margin: 70px 0px 0px 0px;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
 }
 
 hr {
-    width:9%;
-    margin: 7px 0px 40px 0px;
+  width: 9%;
+  margin: 7px 0px 40px 0px;
 }
 
 /* .border {
     /* margin: 50px; */
 
 .border {
-    height: auto;
+  height: auto;
 }
 
-
 .border img {
-    width: 100%;
-    
-    object-fit: cover;
+  width: 100%;
+
+  object-fit: cover;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 40px;
-    width: 80%;
-    margin: 0 auto;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.sdds{
-    background: #fff;
-    padding-bottom: 50px;
-    /* margin: 10px; */
+.sdds {
+  background: #fff;
+  padding-bottom: 10px;
 }
 
-.sdds:hover{
-    opacity: 0.7;
-    transition: all .3s ease-in-out;
-    box-shadow: 0px 12px 0px 0px grey solid;
+.border img:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 12px 0px 0px grey solid;
+  cursor: pointer;
 }
 
 .border .bod {
-    display: grid;
-    place-items: center;
-    gap: 4rem;
-    font-weight: normal;
-    padding-top: 10px;
+  display: grid;
+  place-items: center;
+  gap: 2.3rem;
+  font-weight: normal;
+  padding-top: 5px;
 }
 
 .border .bod h3 {
-    font-weight: normal;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: normal;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  position: relative;
+  top: 10px;
 }
 
-
-@media screen and (max-width: 968px){
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 10%;
-    }
+.border .bod p {
+  position: relative;
+  top: -20px;
 }
 
-
-
-
-
-
+@media screen and (max-width: 968px) {
+  .Room {
+      height: 475vh;
+  }
+  
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10%;
+  }
+}

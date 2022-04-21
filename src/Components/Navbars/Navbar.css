@@ -97,7 +97,6 @@
         background: #fff;
         right: -7rem;
         opacity: 1;
-        transition: all 0.5s ease;
         z-index: 1;
         overflow-y: hidden;
         height: 100vh;
