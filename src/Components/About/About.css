@@ -2,13 +2,19 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     position: relative;
-    top: 10rem;
+    top: 200px;
+    background-color: aliceblue;
+    /* height: 100vh; */
+}
+
+.item1 {
+    width: 95%;
 }
 
 .post {
-    width: 90%; 
+    width: 75%; 
     position: relative;
 }
 
@@ -18,7 +24,7 @@
 
 .posy {
     position: relative;
-    width: 50%; 
+    width: 60%; 
     top: -120px;
     left: 300px;
     z-index: 1;
@@ -100,14 +106,6 @@
         position: relative;
         width: 85%; 
         top: -25px;
-    }
-
-    .item2 .word {
-        position: relative;
-        width: 85%; 
-        top: -55px;
-        text-align: center;
-        left: 20px;
     }
 
 } 

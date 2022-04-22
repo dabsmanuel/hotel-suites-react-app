@@ -9,7 +9,9 @@
 
 .Room {
   background: rgb(241, 239, 239);
-  /* height: 100vh; */
+  /* background: rgb(84, 69, 69); */
+  /* height: 200vh; */
+  padding: 0px 0px 250px;
 }
 
 .Rooms {
@@ -38,7 +40,6 @@ hr {
 
 .border img {
   width: 100%;
-
   object-fit: cover;
 }
 
@@ -47,8 +48,9 @@ hr {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 40px;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
+  height: 100vh;
 }
 
 .sdds {
@@ -85,7 +87,7 @@ hr {
 
 @media screen and (max-width: 968px) {
   .Room {
-      height: 100vh;
+      /* height: 100vh; */
   }
   
   
@@ -93,5 +95,6 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 10%;
+    width: 95%;
   }
 }
