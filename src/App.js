@@ -70,22 +70,20 @@ function App() {
         </div>
       </div>
 
-      {/* <div className="all-items">
-        <div className="flex_items">
-          <div className="item1">
-            <div className="post">
-              <Images pics={pics2} />
-            </div>
-
-            <div className="posy">
-              <Images pics={pics1} />
-            </div>
+      <div className="flex_items">
+        <div className="item1">
+          <div className="post">
+            <Images pics={pics2} />
           </div>
-          <div className="item2">
-            <About />
+
+          <div className="posy">
+            <Images pics={pics1} />
           </div>
         </div>
-      </div> */}
+        <div className="item2">
+          <About />
+        </div>
+      </div>
     </div>
   );
 }
