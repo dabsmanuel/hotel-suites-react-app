@@ -70,7 +70,7 @@ function App() {
         </div>
       </div>
 
-      <div className="all-items">
+      {/* <div className="all-items">
         <div className="flex_items">
           <div className="item1">
             <div className="post">
@@ -85,7 +85,7 @@ function App() {
             <About />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
