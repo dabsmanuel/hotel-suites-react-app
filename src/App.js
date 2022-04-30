@@ -206,39 +206,75 @@ function App() {
       </div>
 
       <div className="text-centered">
-        <div className="tag">
+        <div
+          className="tag"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
           <Gallery />
         </div>
         <div className="photogrid">
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics1} />
           </div>
 
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics2} />
           </div>
 
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics3} />
           </div>
 
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics5} />
           </div>
 
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics5} />
           </div>
 
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics4} />
           </div>
 
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics7} />
           </div>
 
-          <div className="pixgrid">
+          <div
+            className="pixgrid"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <GalleryPix rooms={pics8} />
           </div>
         </div>
