@@ -4,6 +4,8 @@ import Rooms from './Components/RoomFolder/Rooms';
 import Feature from './Components/Feature/Feature';
 import Featuretext from './Components/Feature/Featuretext';
 import RoomPics from './Components/RoomFolder/RoomPics';
+import Gallery from './Components/Gallery/Gallery';
+import GalleryPix from './Components/Gallery/GalleryPix';
 import Images from './Components/About/Images';
 import drinks from "./Components/svg/food.png";
 import exit from "./Components/svg/exit.png";
@@ -17,6 +19,11 @@ import About from './Components/About/About'
 import pics1 from '../src/images/img1.webp';
 import pics2 from "../src/images/img2.webp";
 import pics3 from "../src/images/img3.webp";
+import pics4 from './images/img4.webp';
+import pics5 from './images/img5.webp';
+import pics7 from './images/img7.webp';
+import pics8 from './images/img8.webp';
+ 
 
 function App() {
   return (
@@ -194,6 +201,45 @@ function App() {
             data-aos-anchor-placement="bottom-bottom"
           >
             <Feature cont={taxi} text="Car Airport" />
+          </div>
+        </div>
+      </div>
+
+      <div className="text-centered">
+        <div className="tag">
+          <Gallery />
+        </div>
+        <div className="photogrid">
+          <div className="pixgrid">
+            <GalleryPix rooms={pics1} />
+          </div>
+
+          <div className="pixgrid">
+            <GalleryPix rooms={pics2} />
+          </div>
+
+          <div className="pixgrid">
+            <GalleryPix rooms={pics3} />
+          </div>
+
+          <div className="pixgrid">
+            <GalleryPix rooms={pics5} />
+          </div>
+
+          <div className="pixgrid">
+            <GalleryPix rooms={pics5} />
+          </div>
+
+          <div className="pixgrid">
+            <GalleryPix rooms={pics4} />
+          </div>
+
+          <div className="pixgrid">
+            <GalleryPix rooms={pics7} />
+          </div>
+
+          <div className="pixgrid">
+            <GalleryPix rooms={pics8} />
           </div>
         </div>
       </div>
