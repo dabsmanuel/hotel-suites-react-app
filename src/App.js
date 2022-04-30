@@ -22,8 +22,8 @@ import pics3 from "../src/images/img3.webp";
 import pics4 from './images/img4.webp';
 import pics5 from './images/img5.webp';
 import pics7 from './images/img7.webp';
-import pics8 from './images/img8.webp';
- 
+import pics8 from './images/img8.webp'
+
 
 function App() {
   return (
